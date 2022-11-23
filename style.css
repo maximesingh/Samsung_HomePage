@@ -1,0 +1,140 @@
+/* Body and universal */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: black;
+    margin: 0;
+    padding: 0;
+    height: 150vh;
+}
+
+
+
+/* Header Part */
+header{
+    display: flex;
+    background: white;
+}
+
+
+/* All List Part */
+
+header ul {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+/* Link Part */
+
+header ul a {
+    margin-left: 10px;
+    font-weight: bolder;
+}
+
+
+/* Logo  Part */
+
+header img {
+    width: 10%;
+    margin-left:20px;
+}
+
+/* Logo & Text Under Presentation Video */
+
+.containerImageUnder{
+    background: black;
+}
+
+.containerImageUnderPresentation{
+    display: flex;
+    justify-content: center;
+}
+
+.containerImageUnder .insertImageAndText {
+   width: 30%;
+   height: 400px;
+   background: #313131;
+   background-repeat: no-repeat;
+   text-align: center;
+   display: flex;
+}
+
+
+.ImageAndText{
+    background: black;
+    width: 14.5%;
+    text-align: center;
+    color: white;
+   
+}
+
+.ImageAndText:hover{
+background: #313131;
+}
+
+.ImageAndText img {
+    width: 50%;
+    object-fit: cover;
+    height: 100px;
+    filter: invert(1);
+}
+
+/* First Container */
+
+.FirstContainerOffer{
+
+    position: relative;
+    margin-top: 30px;
+  
+}
+.FirstContainerOffer .FirstOffer {
+    background: #313131;
+    width: 98%;
+    border-radius: 30px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    margin: auto;
+    margin-top: 60px;
+    
+}
+
+.FirstContainerOffer .FirstOffer  h1{
+    font-weight: bolder;
+    margin-left: 15px;
+}
+
+.FirstContainerOffer .FirstOffer p {
+    margin-top: 12px;
+    margin-left: 15px;
+}
+
+.FirstContainerOffer .PlayingButton{
+    
+    
+    padding: 10px 15px;
+    margin-left: 15px;
+    text-decoration: none;
+    display: block;
+    width: 10%;
+    border-radius: 50px;
+    color: black;
+    background: #fff;
+    text-align: center;
+    margin-top: 15px;
+
+}
+
+.FirstOffer .firstImageOffer{
+    width: 33%;
+    position: absolute;
+    left: 55%;
+}
+
